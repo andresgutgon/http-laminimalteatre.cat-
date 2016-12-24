@@ -10,7 +10,6 @@ wordpress_sites:
           - www.laminimalteatre.dev
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     admin_email: info@laminimalteatre.cat
-    site_title: Laminimalteatre
     multisite:
       enabled: false
     ssl:
