@@ -33,6 +33,11 @@ if (file_exists($env_config)) {
 }
 
 /**
+ * Theme
+ */
+define('WP_DEFAULT_THEME', 'sage');
+
+/**
  * URLs
  */
 define('WP_HOME', env('WP_HOME'));
